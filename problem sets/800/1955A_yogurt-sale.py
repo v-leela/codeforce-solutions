@@ -1,5 +1,9 @@
-n=int(input())
-for i in range(n):
+"""
+tags: math
+"""
+
+t=int(input())
+for i in range(t):
     s=input()
     n,a,b=map(int,s.split())
     """ print(n,a,b) """
