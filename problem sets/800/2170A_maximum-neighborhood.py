@@ -1,3 +1,7 @@
+"""
+tags: bitmasks, brute force, greedy, implementation, math
+"""
+
 t=int(input())
 for i in range(t):
     n=int(input())
