@@ -1,3 +1,7 @@
+"""
+tags: math, sortings
+"""
+
 t=int(input())
 for i in range(t):
     l=input()
