@@ -1,3 +1,7 @@
+'''
+tags: sortings, strings
+'''
+
 t=int(input())
 for i in range(t):
     length=int(input())
@@ -16,6 +20,3 @@ for i in range(t):
         print("NO")
     else:
         print("YES")
-
-
-    
