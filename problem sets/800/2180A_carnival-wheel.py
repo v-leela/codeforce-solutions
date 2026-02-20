@@ -1,3 +1,7 @@
+"""
+tags: number theory, brute force
+"""
+
 t=int(input())
 for i in range(t):
     l,a,b=map(int,input().split())
