@@ -1,3 +1,7 @@
+"""
+tags: binary search, brute force, math
+"""
+
 import math
 t=int(input())
 for i in range(t):
