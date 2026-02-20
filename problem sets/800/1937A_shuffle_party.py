@@ -1,3 +1,7 @@
+"""
+tags: implementation, math
+"""
+
 import math
 t=int(input())
 for _ in range(t):
