@@ -1,3 +1,6 @@
+"""
+tags: brute force, math
+"""
 t=int(input())
 for i in range(t):
     n = int(input())
