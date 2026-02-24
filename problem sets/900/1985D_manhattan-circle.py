@@ -5,22 +5,19 @@ tags: implementation, math
 t=int(input())
 for _ in range(t):
     n,m=map(int,input().split())
-    grid=[]
+    count_hash=-1
+    a=1
     for i in range(n):
-        row=list(input())
-        grid.append(row)
-    grid.append(list("." for i in range(m)))
-    list_hash=[0]
-    count=0
-    i=0
-    while i<n+1:
-        count=grid[i].count("#")
-        if count<max(list_hash):
-            ind=grid[i-1].index("#")
-            j=ind+max(list_hash)//2+1
-            print(i,j)
+        row=input()
+        if i==n-1 and count_hash<row.count("#"):
+            print(n,row.index("#")+1)
             break
+        if "#" in row and count_hash<row.count("#"):
+            ind=row.index("#")
+        if count_hash>row.count("#") and a:
+            print(i,ind+(count_hash//2)+1)
+            a=0
+        if count_hash<row.count("#"):
+            count_hash=row.count("#")
         else:
-            i+=1
-            list_hash.append(count)
-    
+            continue
