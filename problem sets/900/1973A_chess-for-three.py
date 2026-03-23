@@ -1,3 +1,5 @@
+#incomplete
+
 t=int(input())
 for _ in range(t):
     p1,p2,p3=map(int,input().split())
