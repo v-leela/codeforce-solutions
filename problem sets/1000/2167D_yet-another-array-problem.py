@@ -6,20 +6,20 @@ import math
 from functools import reduce
 
 def is_prime(x):
-    if x < 2:
+    if x<2:
         return False
-    for i in range(2, int(x**0.5) + 1):
-        if x % i == 0:
+    for i in range(2,int(x**0.5)+1):
+        if x%i==0:
             return False
     return True
 
 def nth_prime(n):
-    count = 0
-    num = 1
-    while count < n:
-        num += 1
+    count=0
+    num=1
+    while count<n:
+        num+=1
         if is_prime(num):
-            count += 1
+            count+=1
     return num
 
 t=int(input())
