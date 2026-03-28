@@ -1,3 +1,7 @@
+"""
+tags: brute force, implementation, math, number theory
+"""
+
 import math
 from functools import reduce
 
