@@ -1,4 +1,5 @@
 #wrong answer on test 2
+
 t=int(input())
 for _ in range(t):
     n=int(input())
@@ -13,3 +14,4 @@ for _ in range(t):
             app=app*2
             l=l+" "+str(app)
         print(l)
+
