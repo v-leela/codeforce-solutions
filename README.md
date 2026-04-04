@@ -7,5 +7,5 @@ This repository contains my solutions to problems from **Codeforces**.
  **Primary Language:** Python  
  **Focus:** Data Structures, Algorithms, Problem Solving, Math   
  **Current Rating:** 409 (newbie)  
- **Problems Solved:** 20+  
+ **Problems Solved:** 30+  
  
