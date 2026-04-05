@@ -6,6 +6,6 @@ This repository contains my solutions to problems from **Codeforces**.
  **Student:** BSDS (1st year) — ISI Delhi  
  **Primary Language:** Python  
  **Focus:** Data Structures, Algorithms, Problem Solving, Math   
- **Current Rating:** 409 (newbie)  
+ **Current Rating:** 665 (newbie)  
  **Problems Solved:** 30+  
  
