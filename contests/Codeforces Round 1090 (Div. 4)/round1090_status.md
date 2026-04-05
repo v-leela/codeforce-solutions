@@ -1,5 +1,5 @@
 # Status
 
 **Solved : A, B, C**  
-**Solved after contest : None**  
-**Unsolved : D, E, F, G**  
+**Solved after contest : E**  
+**Unsolved : D, F, G**  
