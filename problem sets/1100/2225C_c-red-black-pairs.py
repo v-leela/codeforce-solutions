@@ -1,4 +1,4 @@
-
+#incorrect
 
 t=int(input())
 for _ in range(t):
@@ -27,7 +27,7 @@ for _ in range(t):
     k=0
     while k<len(chk)-1:
         if chk[k+1]-chk[k]==1:
-            if r1[chk[k]]==r1[chk[k+1]]:
+            if r2[chk[k]]==r2[chk[k+1]]:
                 pairs+=1
                 k+=2
         k+=1
